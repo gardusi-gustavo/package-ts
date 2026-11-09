@@ -1,0 +1,18 @@
+{
+  "rank": "1.1",
+  "title": "Freeze the npm package name",
+  "context": "The package name and export map are the public contract.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Review package.json and exports.",
+    "expected_outcome": "Consumers import one stable package.",
+    "acceptance_criteria": [
+      "Name is documented",
+      "npm run ci passes"
+    ]
+  },
+  "attempts": []
+}

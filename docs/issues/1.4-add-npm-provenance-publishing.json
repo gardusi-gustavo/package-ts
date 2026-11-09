@@ -1,0 +1,18 @@
+{
+  "rank": "1.4",
+  "title": "Add npm provenance publishing",
+  "context": "Release is only documented.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add a tag-triggered publish workflow.",
+    "expected_outcome": "A v* tag publishes with provenance.",
+    "acceptance_criteria": [
+      "Workflow uses id-token",
+      "Environment is documented"
+    ]
+  },
+  "attempts": []
+}

@@ -1,0 +1,18 @@
+{
+  "rank": "2.3",
+  "title": "Add a second framework example",
+  "context": "Only React is shown.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add a vanilla TypeScript example.",
+    "expected_outcome": "A second integration path exists.",
+    "acceptance_criteria": [
+      "Example uses TypeScript",
+      "No JS source is committed"
+    ]
+  },
+  "attempts": []
+}

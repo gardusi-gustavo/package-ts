@@ -1,0 +1,27 @@
+{
+  "name": "@gardusi-gustavo/ts",
+  "version": "0.1.0",
+  "description": "Gardusi Gustavo TypeScript helpers",
+  "type": "module",
+  "private": false,
+  "files": ["dist"],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "test": "tsc -p tsconfig.test.json && node --test .test-dist/test/*.test.js",
+    "ci": "npm run check && npm run build && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}

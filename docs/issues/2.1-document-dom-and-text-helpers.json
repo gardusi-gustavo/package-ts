@@ -1,0 +1,18 @@
+{
+  "rank": "2.1",
+  "title": "Document DOM and text helpers",
+  "context": "The API is small but undocumented.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add API docs and examples.",
+    "expected_outcome": "Consumers know each export.",
+    "acceptance_criteria": [
+      "Exports are listed",
+      "Examples compile"
+    ]
+  },
+  "attempts": []
+}

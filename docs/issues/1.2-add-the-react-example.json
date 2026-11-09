@@ -1,0 +1,18 @@
+{
+  "rank": "1.2",
+  "title": "Add the React example",
+  "context": "The React demo is a reference only.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Make the example build against the local package.",
+    "expected_outcome": "A contributor can run the demo.",
+    "acceptance_criteria": [
+      "Example builds",
+      "Example is excluded from publish"
+    ]
+  },
+  "attempts": []
+}

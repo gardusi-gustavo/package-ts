@@ -1,0 +1,18 @@
+{
+  "rank": "2.4",
+  "title": "Pin the TypeScript version policy",
+  "context": "The toolchain version is implicit.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Document the support window.",
+    "expected_outcome": "Consumers know the TypeScript version.",
+    "acceptance_criteria": [
+      "Policy exists",
+      "CI uses the supported version"
+    ]
+  },
+  "attempts": []
+}

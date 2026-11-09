@@ -1,0 +1,18 @@
+{
+  "rank": "1.3",
+  "title": "Add a lockfile",
+  "context": "The package has no committed dependency lock.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Generate and commit package-lock.json.",
+    "expected_outcome": "npm ci works from a clean checkout.",
+    "acceptance_criteria": [
+      "Lockfile exists",
+      "CI uses npm ci"
+    ]
+  },
+  "attempts": []
+}

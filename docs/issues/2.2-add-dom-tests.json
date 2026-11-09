@@ -1,0 +1,18 @@
+{
+  "rank": "2.2",
+  "title": "Add DOM tests",
+  "context": "Only the text helper is tested.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add a DOM test harness.",
+    "expected_outcome": "DOM helpers are regression-tested.",
+    "acceptance_criteria": [
+      "Harness is documented",
+      "Tests run in CI"
+    ]
+  },
+  "attempts": []
+}
