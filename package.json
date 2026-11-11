@@ -21,7 +21,7 @@
     "ci": "npm run check && npm run build && npm test"
   },
   "devDependencies": {
-    "@types/node": "^22.10.0",
+    "@types/node": "^26.6.6",
     "typescript": "^7.0.2"
   }
 }
